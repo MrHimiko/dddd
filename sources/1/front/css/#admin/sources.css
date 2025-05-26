@@ -1,0 +1,37 @@
+block[for="md.sources"] > div > block
+{
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid var(--dh-scheme-3);
+}
+
+block[for="md.sources.properties"]:empty,
+block[for="md.sources.filters"]:empty,
+block[for="md.sources.sort"]:empty,
+block[for="md.sources.repeat"]:empty,
+block[for="md.sources.key"]:empty,
+block[for="md.sources.save"]:empty,
+block[for="md.sources.exclude_current"]:empty
+{
+    display: none;
+}
+
+block[for="md.sources.properties"] > p,
+block[for="md.sources.sort"] > p,
+block[for="md.sources.repeat"] > p,
+block[for="md.sources.key"] > p
+{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+block[for="md.sources.properties"] > div
+{
+    display: grid;
+    gap: 10px;
+}
+
+block[for="md.sources.filters"] .top > span
+{
+    font-size: 12px;
+}
