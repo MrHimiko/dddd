@@ -1,0 +1,5 @@
+block[for="builder.content.items"] 
+{
+    display: grid;
+    gap: 2px;
+}
