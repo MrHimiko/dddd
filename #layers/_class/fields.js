@@ -1,0 +1,1 @@
+components.layers = Addons.create(components.GetName() + '.layers');
