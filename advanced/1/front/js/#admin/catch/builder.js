@@ -1,0 +1,4 @@
+builder.OnReady(() =>
+{
+    advanced.Ready();
+});
