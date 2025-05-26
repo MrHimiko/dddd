@@ -1,0 +1,14 @@
+.i6c195252 
+{
+    display: grid;
+    gap: 5px;
+}
+
+.i6c195252 > label
+{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 600;
+    text-transform: capitalize;
+}

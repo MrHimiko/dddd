@@ -1,0 +1,62 @@
+items[for="collections.tabs.sections"]
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+}
+
+items[for="collections.tabs.sections"] > item
+{
+
+    display: grid;
+    width: 100%;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: var(--dh-scheme-5);
+}
+
+items[for="collections.tabs.sections"] > item.item
+{
+    border: unset;
+    padding: unset;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: var(--dh-scheme-5);
+}
+
+items[for="collections.tabs.sections"] > item > .top
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+items[for="collections.tabs.sections"] > item > .top h3
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+items[for="collections.tabs.sections"] > item > .top .reorder
+{
+    cursor: pointer;
+}
+
+
+items[for="collections.tabs.sections"] > item > .fields
+{
+    display: none;
+    gap: 30px;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+items[for="collections.tabs.sections"] > item > .fields:not(:empty)
+{
+    display: grid;
+}

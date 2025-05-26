@@ -1,0 +1,17 @@
+.i36f108b5 block[for="html.table"] > div
+{
+    background-color: unset;
+    border: unset;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.i36f108b5 block[for="html.table"] .header > div > div
+{
+    color: var(--dh-text-2);
+}
+
+.i36f108b5 block[for="html.table"] > div > div > *:not(.header)
+{
+    border-top: 1px solid var(--dh-border-1);
+}

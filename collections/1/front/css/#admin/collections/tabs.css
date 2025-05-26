@@ -1,0 +1,82 @@
+.i404f8693
+{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    white-space: nowrap;
+    gap: 15px;
+    background-color: var(--dh-scheme-5);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 0 2px var(--dh-scheme-2);
+    z-index: 3000;
+    position: relative
+}
+
+.i404f8693 > items
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.i404f8693 > items:not(:empty)
+{
+    margin-right: 20px;
+}
+
+.i404f8693 > items > item
+{
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    align-items: center;
+    transition: 0.2s color;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    cursor: pointer;
+    padding: 4px 10px;
+}
+
+
+.i404f8693 {
+    display: none; 
+}
+
+.i404f8693:has(item:nth-child(2)) {
+    display: flex; 
+}
+
+.i404f8693 > items > item:hover
+{
+    color: var(--dh-text-2);
+}
+
+.i404f8693 > items > item.active
+{
+    color: var(--dh-text-2);
+    background: var(--dh-scheme-4-border);
+    border-radius: 8px;
+}
+
+.i404f8693 > .create
+{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    align-items: center;
+    padding: 10px 0;
+    color: var(--dh-text-1);
+    transition: 0.15s color;
+}
+
+.i404f8693 > .create:hover
+{
+    color: var(--dh-text-2);
+}
+
+.i404f8693 > .create:hover > svg
+{
+    filter: brightness(3);
+}

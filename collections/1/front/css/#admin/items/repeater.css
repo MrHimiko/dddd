@@ -1,0 +1,16 @@
+.i26d0b6eb
+{
+    background: var(--dh-scheme-3);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.i26d0b6eb .b14124ac5
+{
+    max-width: 100%;
+    background: var(--dh-scheme-5);
+}
+
+.i26d0b6eb .b14124ac5:hover {
+    background: var(--dh-scheme-2);
+}

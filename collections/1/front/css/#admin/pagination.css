@@ -1,0 +1,11 @@
+.i52cb26ef
+{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: end;
+    padding: 20px;
+    border-top: 1px solid var(--dh-scheme-2-border);
+    align-items: center;
+    color: var(--dh-text-1);
+}

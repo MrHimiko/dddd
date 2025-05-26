@@ -1,0 +1,35 @@
+item[for="collections.fields"][field="html"]
+{
+    height: 30px;
+    background-color: var(--dh-scheme-3);
+    border-radius: 8px;
+    border: 1px solid var(--dh-bg-3);
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-transform: capitalize;
+}
+
+item[for="collections.fields"][field="html"] > .reorder
+{
+    width: 30px;
+    border-right: 1px solid var(--dh-bg-3);
+    margin-right: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+item[for="collections.fields"][field="html"] > .actions
+{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    right: 10px;
+    height: 100%;
+    top: 0;
+    align-items: center;
+    cursor: pointer;
+}

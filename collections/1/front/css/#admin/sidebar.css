@@ -1,0 +1,12 @@
+.b40aa9bd9
+{
+    transition: 0.5s all;
+    transform: translateX(0);
+    max-width: 250px;
+}
+
+.b40aa9bd9.closed
+{
+    transform: translateX(-250px);
+    max-width: 0;
+}

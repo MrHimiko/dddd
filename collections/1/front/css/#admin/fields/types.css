@@ -1,0 +1,36 @@
+block[for="collections.fields.types"]
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+block[for="collections.fields.types"] > div
+{
+    background: var(--dh-bg-2);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+block[for="collections.fields.types"] > div:hover
+{
+    background: var(--dh-bg-3);
+}
+
+block[for="collections.fields.types"] > div > .icon
+{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+block[for="collections.fields.types"] > div > .information p
+{
+    color: var(--dh-text-1);
+    font-size: 12px;
+}
